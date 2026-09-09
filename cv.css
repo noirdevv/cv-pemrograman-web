@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: #f7f3ec;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+.cv {
+    background: rgb(251, 249, 244);
+    width: 100%;
+    max-width: 800px;
+    padding: 50px 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px solid #2b5c8a;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.head h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+
+.head span {
+    color: rgb(45, 121, 174);
+}
+
+.head h2 {
+    font-size: 16px;
+    color: #2b5c8a;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.kontak {
+    text-align: right;
+    font-size: 13px;
+    color: #666666;
+}
+
+.kontak p {
+    margin-bottom: 3px;
+}
+
+.kontak a {
+    color: #2b5c8a;
+    text-decoration: none;
+}
+
+.kontak a:hover {
+    text-decoration: underline;
+}
+
+.cv .main {
+    margin-bottom: 28px;
+}
+
+.cv .main h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #2b5c8a;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+.cv .main p {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+}
+
+.bagian, .bagianpengalaman {
+    margin-bottom: 18px;
+}
+
+.bagian, .kegiatan {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.judul, .posisi {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+
+.institusi {
+    font-weight: 600;
+    font-size: 15px;
+    color: #2b5c8a;
+}
+
+.deskripsi {
+    display: block;
+    font-size: 13px;
+    color: #1a1a1a;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.tahun {
+    font-size: 13px;
+    color: #666666;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.bagianpengalaman ul, .bagian ul {
+    margin-top: 8px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.bagianpengalaman ul li, .bagian ul li {
+    margin-bottom: 4px;
+}
